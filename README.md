@@ -1,4 +1,4 @@
-#Romancing SaGa Re; UniverSe Database
+# Romancing SaGa Re; UniverSe Database
 
 Link: https://reuniverseDB.github.io/
 
