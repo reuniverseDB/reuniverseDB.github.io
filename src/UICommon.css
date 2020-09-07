@@ -1,0 +1,441 @@
+/* UICommon.css
+    CSS file that specifies classes of the icons found in 
+    UICommon.png for the game Romancing SaGa Re;UniverSe.
+*/
+
+/* === Variables === */
+:root {
+    --uicommon-img: url('img/UICommon.png');
+}
+
+/* === Icon resizing === */
+.uicommon-small {
+    zoom: 0.8;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+}
+
+.uicommon-smaller {
+    zoom: 0.63;
+    transform: scale(0.63);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.63);
+    -moz-transform-origin: 0 0;
+}
+
+.uicommon-smallest {
+    zoom: 0.5;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+}
+
+.uicommon-xsmall {
+    zoom: 0.33;
+    transform: scale(0.33);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.33);
+    -moz-transform-origin: 0 0;
+}
+
+.uicommon-xsmaller {
+    zoom: 0.2;
+    transform: scale(0.2);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.2);
+    -moz-transform-origin: 0 0;
+}
+
+/* === Style Rarities === */
+.uicommon-icon-ss-large {
+    background-image: var(--uicommon-img);
+    height: 202px;
+    width: 202px;
+    background-position: -258px -1846px;
+}
+
+.uicommon-icon-s-large {
+    background-image: var(--uicommon-img);
+    height: 202px;
+    width: 202px;
+    background-position: -668px -1848px;
+}
+
+.uicommon-icon-a-large {
+    background-image: var(--uicommon-img);
+    height: 202px;
+    width: 202px;
+    background-position: -463px -1846px;
+}
+
+.uicommon-icon-b-large {
+    background-image: var(--uicommon-img);
+    height: 202px;
+    width: 202px;
+    background-position: -461px -1645px;
+}
+
+.uicommon-icon-ss {
+    background-image: var(--uicommon-img);
+    height: 49px;
+    width: 49px;
+    background-position: -1700px -1129px;
+}
+
+.uicommon-icon-s {
+    background-image: var(--uicommon-img);
+    height: 49px;
+    width: 49px;
+    background-position: -1334px -702px;
+}
+
+.uicommon-icon-a {
+    background-image: var(--uicommon-img);
+    height: 49px;
+    width: 49px;
+    background-position: -566px -221px;
+}
+
+.uicommon-icon-b {
+    background-image: var(--uicommon-img);
+    height: 49px;
+    width: 49px;
+    background-position: -603px -272px;
+}
+
+.uicommon-icon-bg-ss {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -834px -1178px;
+}
+
+.uicommon-icon-bg-s {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -930px -1794px;
+}
+
+.uicommon-icon-bg-a {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -1010px -1926px;
+}
+
+.uicommon-icon-frame-ss {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -1142px -1926px;
+}
+
+.uicommon-icon-frame-s {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -834px -1046px;
+}
+
+.uicommon-icon-frame-a {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -570px -1119px;
+}
+
+.uicommon-platform-ss {
+    background-image: var(--uicommon-img);
+    height: 59px;
+    width: 134px;
+    background-position: -281px -912px;
+}
+
+.uicommon-platform-s {
+    background-image: var(--uicommon-img);
+    height: 59px;
+    width: 134px;
+    background-position: -607px -1011px;
+}
+
+.uicommon-platform-a {
+    background-image: var(--uicommon-img);
+    height: 59px;
+    width: 134px;
+    background-position: -141px -872px;
+}
+
+.uicommon-platform-b {
+    background-image: var(--uicommon-img);
+    height: 59px;
+    width: 134px;
+    background-position: -467px -1048px;
+}
+
+/* === Item Icons === */
+.uicommon-icon-bg-item {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -834px -1310px;
+}
+
+.uicommon-icon-frame-item {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -701px -1214px;
+}
+
+.uicommon-icon-bg-standard {
+    background-image: var(--uicommon-img);
+    height: 116px;
+    width: 116px;
+    background-position: -701px -1081px;
+}
+
+/* === Weapon Type Icons === */
+.uicommon-icon-sword {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -1052px -854px;
+}
+
+.uicommon-icon-gsword {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -357px -567px;
+}
+
+.uicommon-icon-axe {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -997px -936px;
+}
+
+.uicommon-icon-club {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -1301px -957px;
+}
+
+.uicommon-icon-marts{
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -1385px -955px;
+}
+
+.uicommon-icon-gun {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -99px -329px; 
+}
+
+.uicommon-icon-ssword {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -1937px -1875px;
+}
+
+.uicommon-icon-spear {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -632px -617px;
+}
+
+.uicommon-icon-bow {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -7px -313px;
+}
+
+.uicommon-icon-staff {
+    background-image: var(--uicommon-img);
+    height: 63px;
+    width: 63px;
+    background-position: -885px -709px;
+}
+
+/* === Spell Affinities === */
+.uicommon-icon-fire {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -764px -232px;
+}
+
+.uicommon-icon-water {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1440px -634px;
+}
+
+.uicommon-icon-earth {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1300px -514px;
+}
+
+.uicommon-icon-wind {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1305px -558px;
+}
+
+.uicommon-icon-light {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1412px -1722px;
+}
+
+.uicommon-icon-dark {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -342px -92px;
+}
+
+/* === Skill/Spell Attack Elements === */
+.uicommon-icon-slash {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1453px -678px;
+}
+
+.uicommon-icon-blunt {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -764px -276px;
+}
+
+.uicommon-icon-pierce {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -456px -431px;
+}
+
+.uicommon-icon-heat {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -664px -196px;
+}
+
+.uicommon-icon-cold {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1602px -806px;
+}
+
+.uicommon-icon-lightning {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -564px -170px;
+}
+
+.uicommon-icon-sun { 
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1312px -602px;
+}
+
+.uicommon-icon-shadow {
+    background-image: var(--uicommon-img);
+    height: 32px;
+    width: 32px;
+    background-position: -1024px -416px;
+}
+
+/* Ailments */
+.uicommon-icon-poison {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -815px -777px;
+}
+
+.uicommon-icon-darkness {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -513px -899px;
+}
+
+.uicommon-icon-stun {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -806px -274px;
+}
+
+.uicommon-icon-paralysis {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -1481px -631px;
+}
+
+.uicommon-icon-sleep {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -1253px -495px; 
+}
+
+.uicommon-icon-petrify {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -442px -96px;
+}
+
+.uicommon-icon-confuse {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -1209px -495px;
+}
+
+.uicommon-icon-charm {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -397px -96px;
+}
+
+.uicommon-icon-berserk {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -1090px -442px;
+}
+
+.uicommon-icon-faint {
+    background-image: var(--uicommon-img);
+    height: 38px;
+    width: 38px;
+    background-position: -1226px -539px;
+}
